@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+html 
+{
+    font-family: 'PT Serif', serif;
+}
+
+body
+{
+    margin: 0;
+}
+
+
+/* Mise en forme de la page principale */
+
+.main
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(main2.jpg);
+}
+
+.sub-main
+{
+    width: 70%;
+    margin: auto;
+    padding-top: 25vh;
+}
+
+.sub-main h1
+{
+    color: white;
+    font-size: 50;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);;
+}
+
+
+/* Mise en forme de la navbar main */
+
+.nav-main 
+{
+    background-color: #B9DBBF;
+    height: 120px;
+    border-radius: 125px ;
+    margin-top: 100px;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 3px 6px black;;
+}
+
+.main-image
+{
+    width: 100px;
+    height: 100px;
+    padding : 10px 0 10px 10px
+}
+
+.nav-main span
+{
+    font-size: 27;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.main a
+{
+    color : #393939 ;
+    text-decoration: none;
+    font-size : 25 ;    
+    padding-left: 40px;
+}
+
+.main a:hover 
+{
+    color: #868686;
+}
+
+.main a:active
+{
+    color: #686868
+}
+
+.selecteur-main
+{
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+}
+
+/* --------------------------Changement de page---------------------------*/
+
+/* Mise en forme générale */
+
+section
+{
+    width: 60%;
+    margin : 0 auto ;
+    background-color: #EEEEEE;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.212);
+}
+
+span, h2
+{
+    color: #393939;
+}
+
+
+/* Mise en forme de la page "Nos gammes"
+
+ Mise en forme de la navbar en commençant par la partie selecteur */
+
+nav
+{
+    background-color: #B9DBBF;
+    height: 100px;
+    position: sticky;
+    /* A activer pour avoir un menu fixe
+    top : 0px ; */
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.418);;
+}
+
+.nav-image
+{
+    width: 80px;
+    height: 80px;
+    padding : 10px 0 10px 10px
+}
+nav span
+{
+    font-size: 23;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.selecteur
+{
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;  
+    justify-content: space-between; 
+    width: 55%;
+}
+
+nav a
+{
+    color : #393939 ;
+    text-decoration: none;
+    font-size : 30 ;    
+}
+
+nav a:hover 
+{
+    color: #868686;
+    text-decoration: underline;
+}
+
+nav a:active
+{
+    color: #686868
+}
+
+/* Mise en forme de la section compte/panier de la navbar */
+
+.section-compte
+{
+    margin-top: 30px;
+    margin-left: 150px;
+    display: flex;  
+    justify-content: space-evenly; 
+    width: 20%;
+}
+
+
+/* Mise en forme des sections de gammes */
+
+/* Mise en forme du bouton "voir plus" */
+
+.voir
+{
+    float: right;
+    width: 90px ;
+    height: 45px;
+    margin-top: -60px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 45px ;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.26);
+}
+
+.voir a
+{
+    text-decoration: none;
+    color : #393939 ;
+}
+.voir div
+{
+    padding-left: 13px;
+    padding-top: 10px;
+}
+
+.voir:hover
+{
+    background-color: #B9DBBF;
+}
+
+.voir:active
+{
+    box-shadow: inset;
+    background-color: #93b699;
+}
+
+
+/* Mise en forme des titres des sections */
+
+section h2
+{
+    padding-left : 10px;
+    padding-top: 20px;
+}
+
+/* Mise en forme des miniatures */
+
+.bloc-miniature
+{
+    display: flex;
+    margin-top : 30px ;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.bloc-miniature img
+{
+    width: 300px;
+    height: 300px;
+}
+
+
+.miniature
+{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.26);
+    margin-bottom: 20px;
+ }
+
+.bloc-miniature p
+{
+    text-align: center;
+}
+
+.prix
+{
+    border: solid #B9DBBF;
+    background-color: white;
+}
+
+/* Mise en forme du selecteur à ancre */
+
+.selecteur-gamme
+{
+    background-color: #B9DBBF;
+    border-radius: 30px;
+    position: fixed;
+    top: 200px;
+    left: 0px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.26);
+}
+
+.selecteur-gamme a
+{
+    text-decoration: none;
+    color: #393939;
+    font-size: 20;
+    text-align: center;
+}
+
+.selecteur-gamme a:hover
+{
+    color: #868686;
+    text-decoration: underline;
+}
+
+.selecteur-gamme a:active
+{
+    color: #686868 ;
+    text-decoration: underline;
+}
+
+.selecteur-gamme div
+{
+    padding: 13px 25px;
+}
+
+
+/*----------------Mise en forme de la page Nos produits------------------ */
+
+/* Mise en forme du catalogue */
+
+.catalogue .bloc-miniature
+{
+    padding-top: 20px;
+    flex-wrap: wrap ;
+}
+
