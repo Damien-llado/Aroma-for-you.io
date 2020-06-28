@@ -100,9 +100,10 @@ section
     margin : 0 auto ;
     background-color: #EEEEEE;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
 }
 
-span, h2
+span, h2, p
 {
     color: #393939;
 }
@@ -221,7 +222,7 @@ nav a:active
 
 section h2
 {
-    padding-left : 10px;
+    padding-left : 30px;
     padding-top: 20px;
 }
 
@@ -230,7 +231,7 @@ section h2
 .bloc-miniature
 {
     display: flex;
-    margin-top : 30px ;
+    margin-top : 20px ;
     justify-content: space-around;
     margin-bottom: 40px;
 }
@@ -307,3 +308,198 @@ section h2
     flex-wrap: wrap ;
 }
 
+/*---------------Mise en forme de la page Sur mesure-----------------*/
+
+.section-sur-mesure
+{
+    margin-bottom: 40px;
+}
+
+
+/* Mise en forme de la partie "a propos" */
+
+.bloc-general h2
+{
+    padding-left: 70px;
+    padding-right: 50px;
+    text-decoration: underline;
+}
+
+.bloc-general p
+{
+    padding: 0 70px ;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+/* Mise en forme de la partie question */
+
+.question p
+{
+    padding: 0 70px ;
+    text-align: justify;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 20;
+    font-weight: 600;
+}
+
+.reponse
+{
+    padding-left: 70px;
+    margin-top: -20px;
+}
+
+.reponse div
+{
+    margin-bottom: 10px ;
+}
+
+.reponse label
+{
+    font-size: 17;
+}
+
+.accepte
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-left: 60%;
+    margin-top: -20px;
+}
+
+.accepte label
+{
+    font-size: 20;
+}
+
+button
+{
+    font-size: 20;
+    background-color: #B9DBBF;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-family: 'PT Serif', serif;
+    margin-left: 16%;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.199)    
+}
+
+button:hover
+{
+    background-color: #92ac97;
+}
+
+button:active
+{
+    background-color: #B9DBBF;
+}
+
+
+/*-----------------------Mise en forme de la page blog----------------*/
+
+.article
+{
+   height: 350px;
+   margin-bottom: 30px;
+}
+
+.article a
+{
+    text-decoration: none;
+}
+
+.article h2
+{
+    padding-left: 70px;
+    padding-right: 50px;
+    text-decoration: underline;
+}
+
+.article p
+{
+    padding: 0 70px ;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.article1
+{
+    background-image: url(article1.jpg) ;
+    background-position: center;
+}
+
+.article2
+{
+    background-image: url(article2.jpg) ;
+    background-position: center;
+}
+
+/*----------------Mise en forme de la page contact------------*/
+
+.contact
+{
+    margin-top: 60px;
+    display:  flex;
+    flex-direction: row;
+    width: 52%;
+}
+
+.info-aromaforyou
+{
+    padding: 50px 50px 50px 60px;
+}
+
+.info-aromaforyou div
+{
+    padding-bottom: 5px;
+}
+
+
+.ligne
+{
+    margin: 35px 0;
+    height: 430px;
+    width: 2px;
+    background-color: #707070;
+}
+
+
+/* Mise en forme du formulaire de contact */
+
+
+.form-contact div
+{
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.096)
+}
+
+.formulaire input
+{
+    border : none ;
+    font-family: 'PT Serif', serif;
+    width: 600px;
+    font-size: 18 ;
+    color: grey;
+    border-radius: 5px ;
+}
+
+.formulaire
+{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+textarea
+{
+    width: 600px;
+    height: 240px;
+    border: none;
+}
+
+.envoyer
+{
+    margin-left: 311px;
+    margin-bottom: 20px;
+}
